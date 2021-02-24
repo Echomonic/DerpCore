@@ -1,0 +1,37 @@
+name: DerpCore
+version: ${project.version}
+main: derp.core.dev.DerpCore
+api-version: 1.8
+
+commands:
+  rank:
+    description: set players ranks!
+    aliases: [ r,derprank ]
+
+  coin:
+    description: set players coins!
+    aliases: [ coins,derpcoin ]
+
+  emotes:
+    description: an emote list!
+    aliases: [ derpemotes, emote ]
+
+  build:
+    description: A tool for admins!
+    aliases: [ derpbuild, b ]
+
+  staffchat:
+    description: staff messaging system
+    aliases: [ staff, sc, ]
+
+  vanish:
+    description: vanish your self!
+    aliases: [ v ]
+
+  clear:
+    description: clear your inventory
+    aliases: [ c, clr]
+
+  lightningstick:
+    description: gives you a stick with special powers!
+    aliases: [ ls, lightstick, stick]
